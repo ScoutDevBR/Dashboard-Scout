@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.BtnDashboard = new System.Windows.Forms.Button();
-            this.BtnAnalytics = new System.Windows.Forms.Button();
-            this.BtnCalender = new System.Windows.Forms.Button();
-            this.BtnContactUs = new System.Windows.Forms.Button();
-            this.BtnSettings = new System.Windows.Forms.Button();
             this.PnlNav = new System.Windows.Forms.Panel();
+            this.BtnSettings = new System.Windows.Forms.Button();
+            this.BtnContactUs = new System.Windows.Forms.Button();
+            this.BtnCalender = new System.Windows.Forms.Button();
+            this.BtnAnalytics = new System.Windows.Forms.Button();
+            this.BtnDashboard = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,6 +61,111 @@
             this.panel1.Size = new System.Drawing.Size(172, 557);
             this.panel1.TabIndex = 0;
             // 
+            // PnlNav
+            // 
+            this.PnlNav.BackColor = System.Drawing.Color.LimeGreen;
+            this.PnlNav.Location = new System.Drawing.Point(0, 169);
+            this.PnlNav.Name = "PnlNav";
+            this.PnlNav.Size = new System.Drawing.Size(3, 100);
+            this.PnlNav.TabIndex = 11;
+            // 
+            // BtnSettings
+            // 
+            this.BtnSettings.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.BtnSettings.FlatAppearance.BorderSize = 0;
+            this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(185)))), ((int)(((byte)(45)))));
+            this.BtnSettings.Image = ((System.Drawing.Image)(resources.GetObject("BtnSettings.Image")));
+            this.BtnSettings.Location = new System.Drawing.Point(0, 511);
+            this.BtnSettings.Name = "BtnSettings";
+            this.BtnSettings.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BtnSettings.Size = new System.Drawing.Size(172, 46);
+            this.BtnSettings.TabIndex = 10;
+            this.BtnSettings.Text = "Settings";
+            this.BtnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnSettings.UseVisualStyleBackColor = true;
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
+            this.BtnSettings.Leave += new System.EventHandler(this.BtnSettings_Leave);
+            // 
+            // BtnContactUs
+            // 
+            this.BtnContactUs.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnContactUs.FlatAppearance.BorderSize = 0;
+            this.BtnContactUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnContactUs.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnContactUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(185)))), ((int)(((byte)(45)))));
+            this.BtnContactUs.Image = ((System.Drawing.Image)(resources.GetObject("BtnContactUs.Image")));
+            this.BtnContactUs.Location = new System.Drawing.Point(0, 265);
+            this.BtnContactUs.Name = "BtnContactUs";
+            this.BtnContactUs.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BtnContactUs.Size = new System.Drawing.Size(172, 46);
+            this.BtnContactUs.TabIndex = 9;
+            this.BtnContactUs.Text = "Contact Us";
+            this.BtnContactUs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnContactUs.UseVisualStyleBackColor = true;
+            this.BtnContactUs.Click += new System.EventHandler(this.BtnContactUs_Click);
+            this.BtnContactUs.Leave += new System.EventHandler(this.BtnContactUs_Leave);
+            // 
+            // BtnCalender
+            // 
+            this.BtnCalender.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCalender.FlatAppearance.BorderSize = 0;
+            this.BtnCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCalender.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnCalender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(185)))), ((int)(((byte)(45)))));
+            this.BtnCalender.Image = ((System.Drawing.Image)(resources.GetObject("BtnCalender.Image")));
+            this.BtnCalender.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnCalender.Location = new System.Drawing.Point(0, 219);
+            this.BtnCalender.Name = "BtnCalender";
+            this.BtnCalender.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BtnCalender.Size = new System.Drawing.Size(172, 46);
+            this.BtnCalender.TabIndex = 8;
+            this.BtnCalender.Text = "Calender";
+            this.BtnCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnCalender.UseVisualStyleBackColor = true;
+            this.BtnCalender.Click += new System.EventHandler(this.BtnCalender_Click);
+            this.BtnCalender.Leave += new System.EventHandler(this.BtnCalender_Leave);
+            // 
+            // BtnAnalytics
+            // 
+            this.BtnAnalytics.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnAnalytics.FlatAppearance.BorderSize = 0;
+            this.BtnAnalytics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAnalytics.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnAnalytics.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(185)))), ((int)(((byte)(45)))));
+            this.BtnAnalytics.Image = ((System.Drawing.Image)(resources.GetObject("BtnAnalytics.Image")));
+            this.BtnAnalytics.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnAnalytics.Location = new System.Drawing.Point(0, 173);
+            this.BtnAnalytics.Name = "BtnAnalytics";
+            this.BtnAnalytics.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BtnAnalytics.Size = new System.Drawing.Size(172, 46);
+            this.BtnAnalytics.TabIndex = 7;
+            this.BtnAnalytics.Text = "Analytics";
+            this.BtnAnalytics.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnAnalytics.UseVisualStyleBackColor = true;
+            this.BtnAnalytics.Click += new System.EventHandler(this.button1_Click_2);
+            this.BtnAnalytics.Leave += new System.EventHandler(this.BtnAnalytics_Leave);
+            // 
+            // BtnDashboard
+            // 
+            this.BtnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnDashboard.FlatAppearance.BorderSize = 0;
+            this.BtnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDashboard.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(185)))), ((int)(((byte)(45)))));
+            this.BtnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("BtnDashboard.Image")));
+            this.BtnDashboard.Location = new System.Drawing.Point(0, 127);
+            this.BtnDashboard.Name = "BtnDashboard";
+            this.BtnDashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BtnDashboard.Size = new System.Drawing.Size(172, 46);
+            this.BtnDashboard.TabIndex = 2;
+            this.BtnDashboard.Text = "Dashboard";
+            this.BtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnDashboard.UseVisualStyleBackColor = true;
+            this.BtnDashboard.Click += new System.EventHandler(this.button1_Click);
+            this.BtnDashboard.Leave += new System.EventHandler(this.BtnDashboard_Leave);
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label2);
@@ -71,29 +176,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(172, 127);
             this.panel2.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(60, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(49, 49);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label1.Location = new System.Drawing.Point(41, 80);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "User name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -106,102 +188,28 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Some user text here";
             // 
-            // BtnDashboard
+            // label1
             // 
-            this.BtnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnDashboard.FlatAppearance.BorderSize = 0;
-            this.BtnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnDashboard.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnDashboard.ForeColor = System.Drawing.Color.LimeGreen;
-            this.BtnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("BtnDashboard.Image")));
-            this.BtnDashboard.Location = new System.Drawing.Point(0, 127);
-            this.BtnDashboard.Name = "BtnDashboard";
-            this.BtnDashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BtnDashboard.Size = new System.Drawing.Size(172, 46);
-            this.BtnDashboard.TabIndex = 2;
-            this.BtnDashboard.Text = "Dashboard";
-            this.BtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnDashboard.UseVisualStyleBackColor = true;
-            this.BtnDashboard.Click += new System.EventHandler(this.button1_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(185)))), ((int)(((byte)(45)))));
+            this.label1.Location = new System.Drawing.Point(41, 80);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "User name";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // BtnAnalytics
+            // pictureBox1
             // 
-            this.BtnAnalytics.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnAnalytics.FlatAppearance.BorderSize = 0;
-            this.BtnAnalytics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAnalytics.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnAnalytics.ForeColor = System.Drawing.Color.LimeGreen;
-            this.BtnAnalytics.Image = ((System.Drawing.Image)(resources.GetObject("BtnAnalytics.Image")));
-            this.BtnAnalytics.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnAnalytics.Location = new System.Drawing.Point(0, 173);
-            this.BtnAnalytics.Name = "BtnAnalytics";
-            this.BtnAnalytics.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BtnAnalytics.Size = new System.Drawing.Size(172, 46);
-            this.BtnAnalytics.TabIndex = 7;
-            this.BtnAnalytics.Text = "Analytics";
-            this.BtnAnalytics.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnAnalytics.UseVisualStyleBackColor = true;
-            this.BtnAnalytics.Click += new System.EventHandler(this.button1_Click_2);
-            // 
-            // BtnCalender
-            // 
-            this.BtnCalender.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnCalender.FlatAppearance.BorderSize = 0;
-            this.BtnCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCalender.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnCalender.ForeColor = System.Drawing.Color.LimeGreen;
-            this.BtnCalender.Image = ((System.Drawing.Image)(resources.GetObject("BtnCalender.Image")));
-            this.BtnCalender.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnCalender.Location = new System.Drawing.Point(0, 219);
-            this.BtnCalender.Name = "BtnCalender";
-            this.BtnCalender.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BtnCalender.Size = new System.Drawing.Size(172, 46);
-            this.BtnCalender.TabIndex = 8;
-            this.BtnCalender.Text = "Calender";
-            this.BtnCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnCalender.UseVisualStyleBackColor = true;
-            // 
-            // BtnContactUs
-            // 
-            this.BtnContactUs.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnContactUs.FlatAppearance.BorderSize = 0;
-            this.BtnContactUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnContactUs.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnContactUs.ForeColor = System.Drawing.Color.LimeGreen;
-            this.BtnContactUs.Image = ((System.Drawing.Image)(resources.GetObject("BtnContactUs.Image")));
-            this.BtnContactUs.Location = new System.Drawing.Point(0, 265);
-            this.BtnContactUs.Name = "BtnContactUs";
-            this.BtnContactUs.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BtnContactUs.Size = new System.Drawing.Size(172, 46);
-            this.BtnContactUs.TabIndex = 9;
-            this.BtnContactUs.Text = "Contact Us";
-            this.BtnContactUs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnContactUs.UseVisualStyleBackColor = true;
-            // 
-            // BtnSettings
-            // 
-            this.BtnSettings.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BtnSettings.FlatAppearance.BorderSize = 0;
-            this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnSettings.ForeColor = System.Drawing.Color.LimeGreen;
-            this.BtnSettings.Image = ((System.Drawing.Image)(resources.GetObject("BtnSettings.Image")));
-            this.BtnSettings.Location = new System.Drawing.Point(0, 511);
-            this.BtnSettings.Name = "BtnSettings";
-            this.BtnSettings.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BtnSettings.Size = new System.Drawing.Size(172, 46);
-            this.BtnSettings.TabIndex = 10;
-            this.BtnSettings.Text = "Settings";
-            this.BtnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnSettings.UseVisualStyleBackColor = true;
-            // 
-            // PnlNav
-            // 
-            this.PnlNav.BackColor = System.Drawing.Color.LimeGreen;
-            this.PnlNav.Location = new System.Drawing.Point(0, 169);
-            this.PnlNav.Name = "PnlNav";
-            this.PnlNav.Size = new System.Drawing.Size(3, 100);
-            this.PnlNav.TabIndex = 11;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(60, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 49);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
