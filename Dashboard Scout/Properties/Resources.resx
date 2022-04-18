@@ -118,13 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="blue_repicthousebase_1484336386-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_repicthousebase_1484336386-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Contact Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Contact Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minecraft-creeper-head-min" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minecraft-creeper-head-min.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analytics Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analytics Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (14) (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (14) (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calender Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calender Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="House Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\House Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Money Bag Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Money Bag Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blue_repicthousebase_1484336386-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue_repicthousebase_1484336386-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blue_repicthousebase_1484336386-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue_repicthousebase_1484336386-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Novo Projeto (4) (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (4) (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Download Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\devices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novo Projeto (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novo Projeto (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
