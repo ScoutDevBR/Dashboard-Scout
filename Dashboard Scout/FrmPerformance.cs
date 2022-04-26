@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Dashboard_Scout
 {
@@ -20,6 +21,32 @@ namespace Dashboard_Scout
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PnlCPU_Paint(object sender, PaintEventArgs e)
+        {
+            FrmCPU CPU = new FrmCPU();
+            CPU.Show();
         }
     }
 }

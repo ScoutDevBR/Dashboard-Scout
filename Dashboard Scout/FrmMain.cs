@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace Dashboard_Scout
 {
-    public partial class Form1 : Form
+    public partial class FrmMain : Form
     {
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -27,7 +27,7 @@ namespace Dashboard_Scout
  );
 
 
-        public Form1()
+        public FrmMain()
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundReactRgn(0, 0, Width, Height, 25, 25));
@@ -95,7 +95,6 @@ namespace Dashboard_Scout
         {
             BtnPerformance.BackColor = Color.FromArgb(0, 54, 46);
         }
-
 
         private void BtnDevices_Click(object sender, EventArgs e)	//Devices
         {
@@ -174,7 +173,6 @@ namespace Dashboard_Scout
         {
             BtnCommunication.BackColor = Color.FromArgb(0, 54, 46);
         }
-
 
         private void BtnMyPlanner_Click(object sender, EventArgs e)	//My Planner
         {

@@ -1,6 +1,6 @@
 ﻿namespace Dashboard_Scout
 {
-    partial class Form1
+    partial class FrmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -67,7 +67,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(223)))), ((int)(((byte)(159)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(149)))), ((int)(((byte)(148)))));
             this.label2.Location = new System.Drawing.Point(44, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 12);
@@ -78,7 +78,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(100)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.label1.Location = new System.Drawing.Point(48, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 16);
@@ -103,7 +103,7 @@
             this.BtnHome.FlatAppearance.BorderSize = 0;
             this.BtnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHome.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnHome.Image = global::Dashboard_Scout.Properties.Resources.Novo_Projeto__13_;
             this.BtnHome.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnHome.Location = new System.Drawing.Point(0, 127);
@@ -123,7 +123,7 @@
             this.BtnPerformance.FlatAppearance.BorderSize = 0;
             this.BtnPerformance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPerformance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnPerformance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnPerformance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnPerformance.Image = global::Dashboard_Scout.Properties.Resources.Novo_Projeto__16_;
             this.BtnPerformance.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnPerformance.Location = new System.Drawing.Point(0, 173);
@@ -143,7 +143,7 @@
             this.BtnDevices.FlatAppearance.BorderSize = 0;
             this.BtnDevices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDevices.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnDevices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnDevices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnDevices.Image = global::Dashboard_Scout.Properties.Resources.devices;
             this.BtnDevices.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnDevices.Location = new System.Drawing.Point(0, 219);
@@ -163,7 +163,7 @@
             this.BtnNetwork.FlatAppearance.BorderSize = 0;
             this.BtnNetwork.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnNetwork.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnNetwork.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnNetwork.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnNetwork.Image = ((System.Drawing.Image)(resources.GetObject("BtnNetwork.Image")));
             this.BtnNetwork.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnNetwork.Location = new System.Drawing.Point(0, 265);
@@ -183,7 +183,7 @@
             this.BtnSettings.FlatAppearance.BorderSize = 0;
             this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnSettings.Image = global::Dashboard_Scout.Properties.Resources.Novo_Projeto__17_;
             this.BtnSettings.Location = new System.Drawing.Point(0, 674);
             this.BtnSettings.Name = "BtnSettings";
@@ -206,7 +206,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(54)))), ((int)(((byte)(46)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(163)))), ((int)(((byte)(162)))));
             this.panel1.Controls.Add(this.BtnMyPlanner);
             this.panel1.Controls.Add(this.BtnCommunication);
             this.panel1.Controls.Add(this.BtnMusicPlayer);
@@ -230,7 +230,7 @@
             this.BtnMyPlanner.FlatAppearance.BorderSize = 0;
             this.BtnMyPlanner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMyPlanner.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnMyPlanner.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnMyPlanner.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnMyPlanner.Image = ((System.Drawing.Image)(resources.GetObject("BtnMyPlanner.Image")));
             this.BtnMyPlanner.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnMyPlanner.Location = new System.Drawing.Point(0, 403);
@@ -250,7 +250,7 @@
             this.BtnCommunication.FlatAppearance.BorderSize = 0;
             this.BtnCommunication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCommunication.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnCommunication.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnCommunication.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnCommunication.Image = ((System.Drawing.Image)(resources.GetObject("BtnCommunication.Image")));
             this.BtnCommunication.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnCommunication.Location = new System.Drawing.Point(0, 357);
@@ -270,7 +270,7 @@
             this.BtnMusicPlayer.FlatAppearance.BorderSize = 0;
             this.BtnMusicPlayer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMusicPlayer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnMusicPlayer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnMusicPlayer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnMusicPlayer.Image = ((System.Drawing.Image)(resources.GetObject("BtnMusicPlayer.Image")));
             this.BtnMusicPlayer.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnMusicPlayer.Location = new System.Drawing.Point(0, 311);
@@ -288,7 +288,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(176)))), ((int)(((byte)(178)))));
+            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.lblTitle.Location = new System.Drawing.Point(189, 45);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(295, 32);
@@ -298,7 +298,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(99)))), ((int)(((byte)(94)))));
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(163)))), ((int)(((byte)(162)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
@@ -325,7 +325,7 @@
             // 
             // PnlFormLoader
             // 
-            this.PnlFormLoader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(94)))), ((int)(((byte)(88)))));
+            this.PnlFormLoader.BackColor = System.Drawing.Color.White;
             this.PnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PnlFormLoader.Location = new System.Drawing.Point(172, 127);
             this.PnlFormLoader.Name = "PnlFormLoader";
@@ -333,11 +333,11 @@
             this.PnlFormLoader.TabIndex = 4;
             this.PnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlFormLoader_Paint);
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(73)))), ((int)(((byte)(68)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(205)))), ((int)(((byte)(204)))));
             this.ClientSize = new System.Drawing.Size(1080, 720);
             this.Controls.Add(this.PnlFormLoader);
             this.Controls.Add(this.BtnExit);
@@ -345,9 +345,9 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Main";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSettings));
             this.panel1 = new System.Windows.Forms.Panel();
             this.PnlNav = new System.Windows.Forms.Panel();
+            this.BtnSettings = new System.Windows.Forms.Button();
             this.BtnContactUs = new System.Windows.Forms.Button();
             this.BtnCalender = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BtnSettings = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -45,7 +45,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(54)))), ((int)(((byte)(46)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(163)))), ((int)(((byte)(162)))));
             this.panel1.Controls.Add(this.PnlNav);
             this.panel1.Controls.Add(this.BtnSettings);
             this.panel1.Controls.Add(this.BtnContactUs);
@@ -65,13 +65,30 @@
             this.PnlNav.Size = new System.Drawing.Size(3, 100);
             this.PnlNav.TabIndex = 11;
             // 
+            // BtnSettings
+            // 
+            this.BtnSettings.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.BtnSettings.FlatAppearance.BorderSize = 0;
+            this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
+            this.BtnSettings.Image = global::Dashboard_Scout.Properties.Resources.Novo_Projeto__17_;
+            this.BtnSettings.Location = new System.Drawing.Point(0, 508);
+            this.BtnSettings.Name = "BtnSettings";
+            this.BtnSettings.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BtnSettings.Size = new System.Drawing.Size(172, 46);
+            this.BtnSettings.TabIndex = 10;
+            this.BtnSettings.Text = "Settings";
+            this.BtnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.BtnSettings.UseVisualStyleBackColor = true;
+            // 
             // BtnContactUs
             // 
             this.BtnContactUs.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnContactUs.FlatAppearance.BorderSize = 0;
             this.BtnContactUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnContactUs.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnContactUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnContactUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnContactUs.Image = ((System.Drawing.Image)(resources.GetObject("BtnContactUs.Image")));
             this.BtnContactUs.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnContactUs.Location = new System.Drawing.Point(0, 173);
@@ -89,7 +106,7 @@
             this.BtnCalender.FlatAppearance.BorderSize = 0;
             this.BtnCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCalender.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnCalender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
+            this.BtnCalender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.BtnCalender.Image = global::Dashboard_Scout.Properties.Resources.devices;
             this.BtnCalender.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnCalender.Location = new System.Drawing.Point(0, 127);
@@ -116,7 +133,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(223)))), ((int)(((byte)(159)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(149)))), ((int)(((byte)(148)))));
             this.label2.Location = new System.Drawing.Point(44, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 12);
@@ -127,7 +144,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(100)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(116)))), ((int)(((byte)(117)))));
             this.label1.Location = new System.Drawing.Point(48, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 16);
@@ -144,28 +161,11 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // BtnSettings
-            // 
-            this.BtnSettings.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BtnSettings.FlatAppearance.BorderSize = 0;
-            this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSettings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(185)))), ((int)(((byte)(148)))));
-            this.BtnSettings.Image = global::Dashboard_Scout.Properties.Resources.Novo_Projeto__17_;
-            this.BtnSettings.Location = new System.Drawing.Point(0, 508);
-            this.BtnSettings.Name = "BtnSettings";
-            this.BtnSettings.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BtnSettings.Size = new System.Drawing.Size(172, 46);
-            this.BtnSettings.TabIndex = 10;
-            this.BtnSettings.Text = "Settings";
-            this.BtnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnSettings.UseVisualStyleBackColor = true;
-            // 
             // FrmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(73)))), ((int)(((byte)(68)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(221)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(890, 554);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
